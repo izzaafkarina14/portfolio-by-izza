@@ -800,7 +800,7 @@
     font-size: 14px;
     font-weight: 600;
     color: white;
-    background-color: hsl(35, 100%, 68%);
+    background-color: var(--vegas-gold);
     border-radius: 8px;
     transition: background-color 0.3s;
   }
@@ -965,6 +965,7 @@
     font-size: var(--fs-6);
     font-weight: var(--fw-300);
   }
+
   
   
   
