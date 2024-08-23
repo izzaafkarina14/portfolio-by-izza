@@ -1,10 +1,8 @@
 'use strict';
 
 
-
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
-
 
 
 // sidebar variables
@@ -13,7 +11,6 @@ const sidebarBtn = document.querySelector("[data-sidebar-btn]");
 
 // sidebar toggle functionality for mobile
 sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); });
-
 
 
 // testimonials variables
@@ -52,7 +49,6 @@ for (let i = 0; i < testimonialsItem.length; i++) {
 // add click event to modal close button
 modalCloseBtn.addEventListener("click", testimonialsModalFunc);
 overlay.addEventListener("click", testimonialsModalFunc);
-
 
 
 // custom select variables
@@ -110,9 +106,7 @@ for (let i = 0; i < filterBtn.length; i++) {
     lastClickedBtn = this;
 
   });
-
 }
-
 
 
 // contact form variables
@@ -133,7 +127,6 @@ for (let i = 0; i < formInputs.length; i++) {
 
   });
 }
-
 
 
 // page navigation variables
